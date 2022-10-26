@@ -1,0 +1,43 @@
+body {
+    width: 600px;
+}
+
+.rectangle_rouge {
+    background-color: rgb(185, 43, 43);
+    width: 100%;
+    height: 60px;
+}
+
+.carre_violet {
+    display: flex;
+    justify-content: space-between;
+}
+
+.carre_violet li {
+    list-style: none;
+    background-color: blueviolet;
+    width: 65px;
+    height: 70px;
+}
+
+.carre_bleu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.carre_bleu li {
+    margin-top: 7px;
+    list-style: none;
+    background-color: rgb(59, 144, 255);
+    width: 65px;
+    height: 70px;
+}
+
+.rectangle_jaune {
+    background-color: rgb(255, 217, 0);
+    width: auto;
+    height: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 10px;
+}
